@@ -1,0 +1,59 @@
+.home-container {
+  /* background-color: red; */
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wall {
+  position: relative;                
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+  
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+
+.window {
+  position: absolute;
+  background-color: lightblue;
+  height: 100px;
+  width: 90px;
+  /* left: 50%; */
+  margin-inline: auto;
+  left: 0;
+  right: 0;
+  bottom: 90px;
+  border: 2px solid;
+}
+
+.roof {
+  width: 0;
+  height: 0;
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+  border-bottom: 170px solid black;
+  margin-left: -30px;
+}
+
+.inner-roof {
+  width: 0;
+  height: 3px;
+  border-left: 175px solid transparent;
+  border-right: 175px solid transparent;
+  border-bottom: 165px solid #FF791E;
+  margin-left: -175px;
+}
+
+.pipe {
+  position: absolute;
+  background-color:#4F567D;
+  height: 150px;
+  width: 50px;
+  right: 110px;
+  top: 30px;
+  z-index: -1;
+  border: 2px solid;
+}
